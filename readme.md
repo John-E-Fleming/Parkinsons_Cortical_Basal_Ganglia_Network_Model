@@ -15,9 +15,7 @@ This repository contains python code for simulating a Hodgkin-Huxley based neura
 <br/>
 
 ## Citations
-Fleming, J.E., Dunn, E. and Lowery, M.M., 2020. Simulation of closed-loop deep brain stimulation control schemes for suppression of pathological beta oscillations in Parkinson’s disease. Frontiers in neuroscience, 14, p.166.
-
-The code contained in this repository for simulation of the motor network model and multivariable control DBS approaches is companion to the paper:  
+The code contained in this repository simulates the cortico-basal ganglia network and closed-loop DBS during Parkinson's Disease. This code is companion to the paper:  
 > "Simulation of closed-loop deep brain stimulation control schemes for suppression of pathological beta oscillations in Parkinson’s disease"  
 >   John E. Fleming, Eleanor Dunn, Madeleine M. Lowery
 >    March 5, 2020 : 166  

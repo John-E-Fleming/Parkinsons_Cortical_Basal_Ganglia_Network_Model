@@ -27,14 +27,26 @@ which should be cited for academic use of this code.
 <br/>
 
 ## Model Requirements
-The model is simulated using PyNN with NEURON as it's backend simulator, thus follow their installation instructions at: 1) Neuron - https://www.neuron.yale.edu/neuron/download 2) PyNN - https://pypi.org/project/PyNN/ - http://neuralensemble.org/docs/PyNN/
+The model is simulated using PyNN with NEURON as it's backend simulator, thus follow their installation instructions at: 
+
+1) Neuron - https://www.neuron.yale.edu/neuron/download
+   
+2) PyNN - https://pypi.org/project/PyNN/ - http://neuralensemble.org/docs/PyNN/
 
 <br/>
 
 ## Model Setup: 
 1) Copy the included PyNN files from the downloaded model folder to their corresponding location on your computer (i.e. the directory of your PyNN instatllation - Updated PyNN files are needed for correct simulation of the multicompartmental cortical neurons and for loading model simulations from a presimulated steady state.
-			 2) Compile the NEURON model mod files using either mknrndll or nrnivmodl, for windows or Linux, respectively.
-			 3) Run run_CBG_MU_Pool_Model_to_SS.py Example: 1) From the command line/terminal navigate to the folder containing the model. 2) Execute "python run_CBG_Model_to_SS.py neuron"
+
+2) Compile the NEURON model mod files using either mknrndll or nrnivmodl, for windows or Linux, respectively.
+
+3) Run run_CBG_MU_Pool_Model_to_SS.py
+
+	Example:
+	
+ 	1) From the command line/terminal navigate to the folder containing the model.
+	
+ 	2) Execute "python run_CBG_Model_to_SS.py neuron"
 
     Explanation: There is an initial transient period in the model (~8 seconds). This model simulation runs the model for 
     the transienThere is an initial transient period in the model (~6 seconds). This model simulation runs the model for the transient
